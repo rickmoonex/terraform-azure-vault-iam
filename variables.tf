@@ -19,6 +19,7 @@ variable "resource_group" {
 }
 
 variable "resource_name_prefix" {
+  default     = "dev"
   description = "Prefix applied to resource names"
   type        = string
 }
